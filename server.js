@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, 'dist', 'my-app')))
 
 const API_KEY = "AIzaSyBWEpNwYS4ahpiimiem5feDWWxQ6vRQQ74";
 const baseApiUrl = "https://maps.googleapis.com/maps/api/place/textsearch/json?";
-
+//somechange
 
 const googlePLacesQueryUrl = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+Albany&key=AIzaSyBWEpNwYS4ahpiimiem5feDWWxQ6vRQQ74"
 
