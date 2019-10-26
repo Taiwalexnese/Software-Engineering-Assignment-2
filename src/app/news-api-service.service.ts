@@ -14,7 +14,7 @@ export class NewsApiServiceService {
   public getNews(query: string) {
     const par = new HttpParams().append('input', query)
     console.log("sdfs" + par);
-    return this.httpClient.get<Config>("http://localhost:3000/api/new?" + par);
+    return this.httpClient.get<Config>("/api/new?" + par);
   }
 
   public setRestaurant(restaurant: any) {
